@@ -10,7 +10,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1500px;
+  max-width: 1450px;
   position: relative;
   margin: auto;
 }
@@ -93,6 +93,12 @@ img {vertical-align: middle;}
 </div>
 
 <div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/44.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
   <img src="images/33.jpg" style="width:100%">
   <div class="text">Caption Three</div>
@@ -102,6 +108,7 @@ img {vertical-align: middle;}
 <br>
 
 <div style="text-align:center">
+  <span class="dot"></span> 
   <span class="dot"></span> 
   <span class="dot"></span> 
   <span class="dot"></span> 
@@ -125,7 +132,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
 </script>
 
