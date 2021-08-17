@@ -3,6 +3,85 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+
+
+
+div.background {
+
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+div.transbox {
+   background: rgba(0, 0, 0, 0.5);
+  background: rgb(0, 0, 0);
+ display: block;
+  width: 500px;
+ height: 400px;
+ position: absolute;
+ margin-top: 300px;
+ margin-left: -300px;
+ 
+  border: 1px solid black;
+  opacity: 0.4;
+}
+
+div.transbox p {
+  text-align: center;
+  margin: 5%;
+  font-weight: bold;
+  color: #F1F1F1;
+}
+
+
+div.background1 {
+
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+div.transbox1 {
+ 
+ position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  background: rgb(0, 0, 0);
+right: -270px;
+bottom: 100px;
+ width: 500px;
+ height: 400px;
+ margin-top: -400px;
+ margin-left:16px;
+ 
+  border: 1px solid black;
+  opacity: 0.4;
+}
+
+div.transbox1 p {
+
+ 
+  text-align: center;
+  margin: 5%;
+  font-weight: bold;
+  color: #F1F1F1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
@@ -77,11 +156,31 @@ img {vertical-align: middle;}
 <body>
 
 
+
+
+
+
+
+
+
+
   
 
 
 
 <div class="slideshow-container">
+
+
+<div class="background">
+  <div class="transbox">
+    <p>This is some text that is placed in the transparent box.</p>
+  </div>
+
+
+</div>
+
+
+
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 5</div>
@@ -113,6 +212,18 @@ img {vertical-align: middle;}
   <img src="images/33.jpg" style="width:100%">
   <div class="text">Caption Three</div>
 </div>
+
+
+<div class="background1">
+  <div class="transbox1">
+    <p>This is some text that is placed in the transparent box.</p>
+  </div>
+</div>
+
+
+
+
+
 
 </div>
 <br>
