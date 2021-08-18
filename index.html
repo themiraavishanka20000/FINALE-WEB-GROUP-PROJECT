@@ -1,8 +1,128 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 <head>
+ 
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #30333A;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 800px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background: #e59500;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+ul li .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #fff;
+}
+
+ul li.facebook {
+    background: #3b5998;
+}
+
+ul li.twitter {
+    background: #00aced;
+}
+
+ul li.instagram {
+    background: #bc2a8d;
+}
+
+ul li.google {
+    background: #dd4b39;
+}
+
+ul li.whatsapp {
+    background: #4dc247;
+}
+
+ul li.facebook div.slider {
+    background: #627aac;
+}
+
+ul li.twitter div.slider {
+    background: #7fd5f6;
+}
+
+ul li.instagram div.slider {
+    background: #dd94c6;
+}
+
+ul li.google div.slider {
+    background: #eea59c;
+}
+
+ul li.whatsapp div.slider {
+    background: #82d47e;
+}
+
+.slider {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 51px;
+    width: 0px;
+    height: 50px;
+    background: #eebb5c;
+    border-radius: 3px;
+    transition: all 0.5s 0.3s ease;
+}
+
+.slider p {
+    font-family: arial;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+ul li:hover .slider {
+    width: 180px;
+    transition: all 0.5s ease;
+}
+
+ul li:hover .slider p {
+    opacity: 1;
+    transition: all 1s 0.2s ease;
+}
+
 
 
 
@@ -20,7 +140,7 @@ div.transbox {
   width: 500px;
  height: 400px;
  position: absolute;
- margin-top: -700px;
+ margin-top: -600px;
  margin-left: -300px;
  
   border: 1px solid black;
@@ -156,18 +276,6 @@ img {vertical-align: middle;}
 <body>
 
 
-
-
-
-
-
-
-
-
-  
-
-
-
 <div class="slideshow-container">
 
 
@@ -179,33 +287,35 @@ img {vertical-align: middle;}
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 5</div>
-  <img src="images/11.jpg" style="width:100%">
-  <div class="text">Caption Text</div>
+  <img src="images/11.jpg" style="width:1500px" "height: 100px;">
+  <div class="text"><top 100p>Nature is our home! If you try to break it phillers, it will be fall on top of us </div>
+  
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 5</div>
-  <img src="images/22.jpg" style="width:100%">
-  <div class="text">Caption Two</div>
+  <img src="images/22.png" style="width:1500px" "height: 100px;">
+    <div class="text">Nature is our home! If you try to break it phillers, it will be fall on top of us </div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 5</div>
-  <img src="images/44.jpg" style="width:100%">
-  <div class="text">Caption Two</div>
+  <img src="images/33.png" style="width:1500px" "height: 100px;">
+   <div class="text">Nature is our home! If you try to break it phillers, it will be fall on top of us </div>
 </div>
 
 
 <div class="mySlides fade">
   <div class="numbertext">4 / 5</div>
-  <img src="images/55.jpg" style="width:100%">
-  <div class="text">Caption Two</div>
+  <img src="images/44.png" style="width:1500px" "height: 100px;">
+    <div class="text">Nature is our home! If you try to break it phillers, it will be fall on top of us </div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">5 / 5</div>
-  <img src="images/33.jpg" style="width:100%">
-  <div class="text">Caption Three</div>
+  <img src="images/55.png" style="width:1500px" "height: 100px;">
+    <div class="text">Nature is our home! If you try to break it phillers, it will be fall on top of us </div>
+ 
 </div>
 
 
@@ -215,13 +325,55 @@ img {vertical-align: middle;}
     <p>
 when we consider about climate action, life below water and life on land which are the main three goals of preserving and protecting the nature. The main reason for climate change is increasing the global temperature. There are many factors which affect increasing global temperature. They are Deforestation, burning plastics, destruction of the Ozone layer and increasing the concentration of Co2 in the atmosphere. There are many factors which affects life on earth. Some of them are decreasing the level of organic materials on the earth, Drying out water resources etc. Due to melting of ice glaciers, Disposal of plastic garbage into sea and high consumption of crude oil also affects to the lives in the ocean. Disposals from factories, smokes are affects to the lives of the organisms directly and indirectly. 
 </p>
+
+
+
   </div>
+<div class="wrapper">
+  <ul>
+    <li class="facebook">
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+      <a href = "https://www.facebook.com/" target="_blank">
+      <div class="slider">
+        <p>facebook</p></a>
+      </div>
+    </li>
+    
+    <li class="twitter">
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+      <div class="slider">
+        <p>twitter</p>
+      </div>
+    </li>
+    
+    <li class="instagram">
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+      <div class="slider">
+        <p>instagram</p>
+      </div>
+    </li>
+    
+    <li class="google">
+      <i class="fa fa-google" aria-hidden="true"></i>
+      <div class="slider">
+        <p>google</p>
+      </div>
+    </li>
+    
+    <li class="whatsapp">
+      <i class="fa fa-whatsapp" aria-hidden="true"></i>
+      <div class="slider">
+        <p>whatsapp</p>
+      </div>
+    </li>
+  </ul>
+</div>
 
 
 
 <div class="background1">
   <div class="transbox1">
-    <p>This will affect the future life on earth in small or large amount. Due this a world which is sustainable for future life won't remain on earth. So, we can acknowledge people using different type of methods regarding this issue. So, we have decided to develop a website which will we use to promote clay products which are good alternate material for plastic products. Also, we hope to provide services like recycling the plastic materials, acknowledging the value of aquatic lives, wild resources to the public and collect funds in order to organize seminar sessions for the public and will be used to create programs that will protect lives on earth through this web site. .</p>
+    <p>This is some text that is placed in the transparent box.</p>
   </div>
 </div>
 
@@ -265,4 +417,3 @@ function showSlides() {
 
 </body>
 </html> 
-
