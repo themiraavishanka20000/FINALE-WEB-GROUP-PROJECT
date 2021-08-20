@@ -15,8 +15,7 @@ section{
 	border:1px solid black;
 	width:100%;
 	height:90%;
-	background-size:cover;	
-	
+	background-size:cover;		
 }
 img{
 	border-radius:50%;
@@ -24,7 +23,12 @@ img{
 	height:300px;
 	margin-left:750px;
 	margin-top:px;
-
+}
+a:hover{
+	background-color:yellow;
+}
+button{
+	background-color: white;
 }
 .Sea{
 	background-image:url("closeup-green-sea-turtle-swimming-underwater-lights.jpg");
