@@ -31,19 +31,20 @@ button{
 	background-color: white;
 }
 .Sea{
-	background-image:url("closeup-green-sea-turtle-swimming-underwater-lights.jpg");
+	background-image:url("images/closeup-green-sea-turtle-swimming-underwater-lights.jpg");
 }
 .Pottery{
-	background-image:url("unfinished-jug.jpg");	
+	background-image:url("images/unfinished-jug.jpg");	
 }
 .Wild{
-	background-image:url("elephants-drinking-water.jpg");
+	background-image:url("images/elephants-drinking-water.jpg");
 }
 .Forest{
-	background-image:url("beautiful-scenery-river-surrounded-by-greenery-forest.jpg");
+	background-image:url("images/beautiful-scenery-river-surrounded-by-greenery-forest.jpg");
 }
 .top{
 	background-image: url("3459.jpg");
+	background-size: cover;
 	height: 80px;
 }
 .topic1{
