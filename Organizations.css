@@ -1,5 +1,5 @@
 body{
-	background-color:#2a2b2a;
+	background-color:#575354;
 }
 h1{
 	text-align:center;
@@ -26,6 +26,9 @@ img{
 }
 a:hover{
 	background-color:yellow;
+}
+topic1:hover{
+	background-color: #575753;
 }
 button{
 	background-color: white;
