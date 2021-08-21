@@ -15,7 +15,7 @@ p{
 section{
 	
 	width:100%;
-	height:50px;
+	height:120px;
 	background-size:cover;		
 }
 
@@ -33,7 +33,7 @@ section{
 	width: 100%;
 }
 .parallax1{
-	background-image:url('images/PPE.jpg');
+	background-image:url('images/PPR.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	height: 400px;
@@ -47,7 +47,14 @@ section{
 	width: 100%;
 }
 .parallax3{
-	background-image:url('images/box.jpg');
+	background-image:url('images/box.png');
+	background-size: cover;
+	background-attachment: fixed;
+	height: 400px;
+	width: 100%;
+}
+.parallax4{
+	background-image:url('images/Organic.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	height: 400px;
@@ -65,7 +72,7 @@ section{
 	font-size: 125px;
 
 }
-.ppe{
+.ppr{
 	background-color:none;
 	color: black;
 	opacity:0.5;
@@ -87,6 +94,16 @@ section{
 }
 .boxes{
 	background-color:none;
+	color: black;
+	opacity:0.5;
+	height: auto;
+	width: auto;
+	position:relative ;
+	bottom: 300px;
+	font-size: 125px;
+}
+.org{
+	background-color:none;
 	color: white;
 	opacity:0.5;
 	height: auto;
@@ -96,33 +113,54 @@ section{
 	font-size: 125px;
 }
  
-.p1{
- 
- 
-	background-color:none;
- 
+.p1{ 
+
+	background-color:none; 
 	position: absolute;
 	color: whitesmoke;
-	top: 550px;
+	border: 1px;
+	top: 510px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 600px; 	 
+	opacity: 0.5px;
+}
+img.img1{
+	height: 130px;
+	width: 130px;
+	position: relative;
+	bottom: 120px;
+}
+img.img2{
+	height: 130px;
+	width: 130px;
+	position: relative;
+	bottom: 120px;
+	left: 20px;
 }
 .p2{
-	background-color:none;
- 
+	background-color:none; 
 	position: absolute;
 	color: whitesmoke;
 	top: 1150px;
 }
 .p3{
-	background-color:none;
- 
+	background-color:none; 
 	position: absolute;
 	color:whitesmoke;
 	top: 1750px;
 }
 .p4{
-	background-color:none;
- 
+	background-color:none; 
 	position: absolute;
 	color: whitesmoke;
 	top: 2310px;
 }
+.p5{
+	background-color:none; 
+	position: absolute;
+	color: whitesmoke;
+	top: 3210px;
+}
+
+
