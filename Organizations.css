@@ -9,9 +9,12 @@ h1{
 }
 h2{
 	font-size: 30px;
+	text-align: center;
+	font-family: Arial;
 }
 p{
 	font-size: 20px;
+	text-align: center;
 }
 section{
 	border:1px solid black;
@@ -33,7 +36,11 @@ topic1:hover{
 	background-color: #575753;
 }
 button{
-	background-color: white;
+	background-color: red;
+	border: none;
+	color: green;
+	text-align: center;
+	opacity: 0px;
 }
 .Sea{
 	background-image:url("images/closeup-green-sea-turtle-swimming-underwater-lights.jpg");
@@ -56,7 +63,6 @@ button{
 	width:500px;
 	height:600px:
 	border:1px solid black;
-	text-align: center;
 	background-color:#6ebeeb;
 	opacity:0.5;
 	margin-top:250px;
@@ -66,7 +72,6 @@ button{
 	width:500px;
 	height:600px:
 	border:1px solid black;
-	text-align: center;
 	background-color:#f7be81;
 	opacity:0.5;
 	margin-top:250px;
@@ -76,7 +81,6 @@ button{
 	width:500px;
 	height:600px:
 	border:1px solid black;
-	text-align: center;
 	background-color:#9c938a;
 	opacity:0.5;
 	margin-top:250px;
@@ -86,7 +90,6 @@ button{
 	width:500px;
 	height:600px:
 	border:1px solid black;
-	text-align: center;
 	background-color:#bdbdb9;
 	opacity:0.5;
 	margin-top:250px;
@@ -96,8 +99,7 @@ button{
 	width:650px;
 	height:600px:
 	border:1px solid black;
-	text-align: center;
-	background-color:white;
+	background-color:#afeafa;
 	opacity:0.5;
 	margin-top:50px ;
 	margin-left:580px;
@@ -108,7 +110,6 @@ button{
 	width:650px;
 	height:600px:
 	border:1px solid black;
-	text-align: center;
 	background-color:#f7d9be;
 	opacity:0.5;
 	margin-top:50px ;
@@ -120,7 +121,6 @@ button{
 	width:650px;
 	height:600px:
 	border:1px solid black;
-	text-align: center;
 	background-color:#c2c1c0;
 	opacity:0.5;
 	margin-top:50px ;
@@ -132,7 +132,6 @@ button{
 	width:650px;
 	height:600px:
 	border:1px solid black;
-	text-align: center;
 	background-color:#59ba61;
 	opacity:0.5;
 	margin-top:50px ;
