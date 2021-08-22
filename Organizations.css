@@ -29,7 +29,7 @@ img{
 	margin-top:px;
 }
 a:hover{
-	background-color:yellow;
+	background-color:#f28416;
 	
 }
 a{
@@ -39,9 +39,8 @@ topic1:hover{
 	background-color: #575753;
 }
 button{
-	background-color: black;
-	border: none;
-	color: green;
+	background-color: #021826;
+	border:1px solid black;
 	opacity: 0px;
 }
 .Sea{
