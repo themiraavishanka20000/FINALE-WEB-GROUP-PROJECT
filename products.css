@@ -128,48 +128,7 @@ section{
 	padding-left: 450px; 	 
 	opacity: 0.5px;
 }
-img.img1{
-	height: 50px;
-	width: 100px;
-	position: relative;
-	bottom: 130px;
-}
-img.img2{
-	height: 100px;
-	width: 100px;
-	position: relative;
-	bottom: 130px;
-		left: 65px;
-}
-img.img3{
-	height: 100px;
-	width: 100px;
-	position: relative;
-	bottom: 130px;
- 	left: 110px;
-}
-img.img4{
-	height: 100px;
-	width: 100px;
-	position: relative;
-	bottom:10px;
-	right: 312px;
- 
-}
-img.img5{
-	height: 100px;
-	width: 100px;
-	position: relative;
-	bottom: 10px;
-	right: 250;
-}
-img.img6{
-	height: 100px;
-	width: 100px;
-	position: relative;
-	bottom: 10px;
-	right: 200;
-}
+
 .p2{
 	background-color:none; 
 	position: absolute;
@@ -180,33 +139,27 @@ img.img6{
 	padding-bottom: 50px;
 	padding-left: 450px; 
 }
-img.img1{
-	height: 250px;
-	width: 190px;
-	position: relative;
-	bottom: 140px;
-	right: 30px;
+img.img7{
+	height: 300px;
+	width: 400px;
+	position: absolute;
+	top: 1150px;
+	left: 10px;
 }
-img.img2{
-	height: 250px;
-	width: 190px;
-	position: relative;
-	bottom: 140px;
-	left: 1px;
-}
-img.img3{
-	height: 100px;
-	width: 100px;
+img.img8{
+	height: 240px;
+	width: 220px;
 	position: relative;
 	bottom: 130px;
- 	left: 110px;
+	right: 55px;
 }
-img.img4{
-	height: 100px;
-	width: 100px;
-	position: relative;
-	bottom:10px;
-	right: 312px;
+img.img9{
+	height: 250px;
+	width: 250px;
+	position: absolute;
+	top: 1185;
+	right: 60px;
+	left: 245px;
  
 }
 .p3{
@@ -219,6 +172,38 @@ img.img4{
 	padding-bottom: 50px;
 	padding-left: 450px; 
 }
+img.img10{
+	height: 180px;
+	width: 180px;
+	position: absolute;
+	top: 1835px;
+	right: 1200px;
+ 
+}
+img.img11{
+	height: 150px;
+	width: 110px;
+	position: absolute;
+	top: 1835px;
+	right: 1010px;
+ 
+}
+img.img12{
+	height: 110px;
+	width: 110px;
+	position: absolute;
+	top: 1980px;
+	right: 1130px;
+ 
+}
+img.img13{
+	height: 110px;
+	width: 110px;
+	position: absolute;
+	top: 1975px;
+	right: 910px;
+ 
+}
 .p4{
 	background-color:none; 
 	position: absolute;
@@ -228,6 +213,14 @@ img.img4{
 	padding-top: 50px;
 	padding-bottom: 50px;
 	padding-left: 450px; 
+}
+img.img14{
+	height: 260px;
+	width: 220px;
+	position: absolute;
+	top: 2500px;
+	right: 1020px;
+ 
 }
 .p5{
 	background-color:none; 
@@ -239,5 +232,47 @@ img.img4{
 	padding-bottom: 50px;
 	padding-left: 450px; 
 }
-
+img.img1{
+	height: 100px;
+	width: 100px;
+	position: relative;
+	bottom: 130px;
+ 
+}
+img.img2{
+	height: 100px;
+	width: 100px;
+	position: relative;
+	bottom: 130px;
+		left: 60px;
+ 
+}
+img.img3{
+	height: 100px;
+	width: 100px;
+	position: relative;
+	bottom: 130px;
+ 	left: 120px;
+}
+img.img4{
+	height: 100px;
+	width: 100px;
+	position: relative;
+	left: 15px;
+}
+img.img5{
+	height: 100px;
+	width: 100px;
+ 	position: relative;
+ 	top: 1px;
+ 	right: 255px;
+}
+img.img6{
+	height: 100px;
+	width: 100px;
+	 position: relative;
+	top: 1px;
+	right: 520px;
+ 
+ }
 
