@@ -3,20 +3,29 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+video
+{
+	position:fixed;
+	z-index: -1;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.7);
+}
 body{
 	background-color: #f5f5f5 ;
 	font-family: Arial,Helvetica,sans-serif;
 }
 .wrapper{
-	background-color: #fff;
+	background-color:#90ee90;
 	width: 500px;
 	padding: 25px;
 	margin: 25px auto 0;
+	background: rgba(255, 255, 255, 0.04);
 	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
 }
 .wrapper h2{
 	background-color:#fcfcfc ;
-	colour:#7ed321;
+	colour:	#000080;
 	font-size: 24px;
 	padding: 10px;
 	margin-bottom: 5px;
@@ -25,7 +34,7 @@ body{
 }
 h4{
 	padding-bottom: 0px;
-	color: #7ed321;
+	color: 	#000080;
 }
 .input-group{
 	margin-bottom: 4px;
@@ -77,4 +86,49 @@ h4{
 	pointer-events: none;
 	border: 1px solid #00000033;
 	border-right: none;
+}
+.name:focus+.icon{
+	background-color: #7ed321;
+	color: #fff;
+	border-right: 1px solid #7ed321;
+	border: none;
+	transition: 1s;
+}
+.Dob{
+	width: 10%;
+	padding: 14px;
+	text-align: center;
+	background- color: #fcfcfc;
+	transition: 0.3s;
+	outline: none;
+	border: 1px solid #c0bfbf;
+	border-radius: 3px;
+}
+.input-box select{
+	display: inline-block;
+	width: 40%;
+	padding: 5px;
+	float:left;
+	text-align: center;
+	font-size: 10px;
+	outline: none;
+	border: 1px solid #c0bfbf;
+	border-radius: 3px;
+	transition:  0.2s;
+}
+button{
+	width: 200%;
+	background: transparent;
+	border: none;
+	background: #ff4500;
+	color: #fff;
+	padding: 10px;
+	border-radius: 4px;
+	font-size: 16px;
+	transition: all 0.35s ease;
+	margin-top: 50px;
+}
+button:hover{
+	cursor: pointer;
+	background: #5eb105;
 }
