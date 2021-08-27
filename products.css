@@ -128,6 +128,48 @@ section{
 	padding-left: 450px; 	 
 	opacity: 0.5px;
 }
+img.img17{
+	height: 100px;
+	width: 100px;
+	position: relative;
+	bottom: 120px;
+	left: 10px;
+}
+img.img18{
+	height: 100px;
+	width: 100px;
+	position: relative;
+	bottom: 120px;
+	left: 60px;
+}
+img.img19{
+	height: 100px;
+	width: 100px;
+	position: relative;
+	bottom: 120px;
+	left: 100px;
+}
+img.img20{
+	height: 100px;
+	width: 100px;
+	position: relative;
+	bottom: 1px;
+	right: 300px;
+}
+img.img21{
+	height: 100px;
+	width: 100px;
+	position: relative;
+	bottom: 1px;
+	right: 260px;
+}
+img.img22{
+	height: 100px;
+	width: 100px;
+	position: relative;
+	bottom: 1px;
+	right: 210px;
+}
 
 .p2{
 	background-color:none; 
@@ -140,11 +182,11 @@ section{
 	padding-left: 450px; 
 }
 img.img7{
-	height: 300px;
-	width: 400px;
+	height: 230px;
+	width: 100px;
 	position: absolute;
-	top: 1150px;
-	left: 10px;
+	top: 1190px;
+	left: 150px;
 }
 img.img8{
 	height: 240px;
@@ -154,12 +196,12 @@ img.img8{
 	right: 55px;
 }
 img.img9{
-	height: 250px;
-	width: 250px;
-	position: absolute;
-	top: 1185;
-	right: 60px;
-	left: 245px;
+	height: 220px;
+	width: 150px;
+	position: relative;
+	bottom: 130px;
+	left: 80px;
+	
  
 }
 .p3{
@@ -173,35 +215,51 @@ img.img9{
 	padding-left: 450px; 
 }
 img.img10{
-	height: 180px;
-	width: 180px;
-	position: absolute;
-	top: 1835px;
-	right: 1200px;
+	height: 150px;
+	width: 150px;
+	position: relative;
+	bottom: 160px;
+	right: 15px;
  
 }
 img.img11{
-	height: 150px;
-	width: 110px;
-	position: absolute;
-	top: 1835px;
-	right: 1010px;
+	height: 140px;
+	width: 100px;
+	position: relative;
+	bottom: 35px;
+	right: 150px;
  
 }
 img.img12{
-	height: 110px;
-	width: 110px;
-	position: absolute;
-	top: 1980px;
-	right: 1130px;
+	height: 150px;
+	width: 140px;
+	position: relative;
+	bottom: 165px;
+	right: 115px;
  
 }
 img.img13{
 	height: 110px;
+	width: 130px;
+	position: relative;
+	bottom: 35px;
+	right: 250px;
+ 
+}
+img.img15{
+	height: 120px;
+	width: 120px;
+	position: relative;
+	bottom: 165px;
+	right: 200px;
+ 
+}
+img.img16{
+	height: 110px;
 	width: 110px;
-	position: absolute;
-	top: 1975px;
-	right: 910px;
+	position: relative;
+	bottom: 35px;
+	right: 330px;
  
 }
 .p4{
