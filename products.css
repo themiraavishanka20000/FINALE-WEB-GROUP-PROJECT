@@ -88,7 +88,7 @@ section{
 .clay{
 	background-color:none;
 	color: black;
-	opacity:0.5;
+	opacity:0.6;
 	height: auto;
 	width: auto;
 	position:relative ;
@@ -97,8 +97,8 @@ section{
 }
 .boxes{
 	background-color:none;
-	color: black;
-	opacity:0.5;
+	color: whitesmoke;
+	opacity:0.6;
 	height: auto;
 	width: auto;
 	position:relative ;
@@ -332,5 +332,15 @@ img.img6{
 	top: 1px;
 	right: 520px;
  
+ }
+ .buttonclz{
+ 	background-color: transparent;
+ 	background-repeat: no-repeat;
+ 	border: none;
+ 	cursor: pointer;
+ 	overflow: hidden;
+ 	outline: none;
+ 	color: whitesmoke;
+ 	font-family: ;
  }
 
