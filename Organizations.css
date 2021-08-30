@@ -149,3 +149,13 @@ button{
 	position: absolute;
 	top: 1980;
 }
+.buttonclz{
+ 	background-color: transparent;
+ 	border: none;
+ 	cursor: pointer;
+ 	outline: none;
+ 	color: whitesmoke;
+ 	font-family: 'Helvetica Neue', sans-serif;
+ 	font-size: 17px;
+ 	color: peachpuff;
+ }
