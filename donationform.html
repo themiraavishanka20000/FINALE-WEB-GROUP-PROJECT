@@ -6,8 +6,58 @@
 	<title>document</title>
 	<link href="Donationform.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="Button.js"></script>
+    <link rel="stylesheet" type="text/css" href="dropdown.css">
 </head>
 <body>
+	<nav>
+        <ul class="menu">
+          <li><button onclick="page1()" class="buttonclz">Home</button></li>
+
+          <li>Our Products
+            <ul class="sub-menu">
+              <li><button onclick="page2()" class="buttonclz">See more...</button></li>
+               
+            </ul>
+          </li>
+          
+          
+          <li>Our Services
+            <ul class="sub-menu">
+              <li><button onclick="page3()" class="buttonclz">See more...</button></li>
+              
+            </ul>
+          </li>
+          
+          
+          <li>Companies
+            <ul class="sub-menu">
+              <li><button onclick="page4()" class="buttonclz">See more...</button></li>
+            </ul>
+          </li>
+          
+          
+          <li>Organization
+            <ul class="sub-menu">
+              <li><button onclick="page5()" class="buttonclz">See more...</button></li>  
+            </ul>
+          </li>
+
+          <li>Resent Event
+            <ul class="sub-menu">
+              <li><button onclick="page6()" class="buttonclz">See more...</button></li> 
+            </ul>
+          </li>
+
+          <li>donations
+            <ul class="sub-menu">
+              <li><button onclick="page7()" class="buttonclz">Fill The Form</button></li>
+            </ul>
+          </li>
+        </ul>
+      
+     
+      </nav>
 	<div class="wrapper">
 	 	<h2>Donation Form</h2>
 	 	<form method="post">
@@ -133,8 +183,8 @@
 
 			<div class="input- group">
 				<div class="input-box">
-					<button type="submit">DONATE</button>
-				</div>
+				<button class="donate" submit ="document.location='file:///C:/Users/Chanuka%20Devin/Documents/GitHub/FINALE-WEB-GROUP-PROJECT/thank%20you.html'">DONATE</button>  
+			    </div>
 			</div>
 			<video autoplay muted loop>
 				<source src="pp.mp4"/>

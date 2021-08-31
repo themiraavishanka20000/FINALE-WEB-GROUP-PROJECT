@@ -116,7 +116,7 @@ h4{
 	border-radius: 3px;
 	transition:  0.2s;
 }
-button{
+.donate{
 	width: 200%;
 	background: transparent;
 	border: none;
@@ -128,7 +128,17 @@ button{
 	transition: all 0.35s ease;
 	margin-top: 50px;
 }
-button:hover{
+.donate:hover{
 	cursor: pointer;
 	background: #5eb105;
 }
+.buttonclz{
+ 	background-color: transparent;
+ 	border: none;
+ 	cursor: pointer;
+ 	outline: none;
+ 	color: whitesmoke;
+ 	font-family: 'Helvetica Neue', sans-serif;
+ 	font-size: 17px;
+ 	color: peachpuff;
+ }
