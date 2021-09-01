@@ -2,6 +2,9 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="Button.js"></script>
+<link rel="stylesheet" type="text/css" href="dropdown.css">
+
 <style>
 body, html {
   height: 100%;
@@ -26,7 +29,7 @@ background-size: cover;
 }
 .text-block1 {
   position: absolute;
-  bottom: 300px;
+  bottom: 350px;
   right: 50px;
   font-size: 30px;
   width:450px;
@@ -35,13 +38,80 @@ background-size: cover;
   padding-left: 20px;
   padding-right: 20px;
 }
+
+ .buttonclz{
+ 	background-color: transparent;
+ 	border: none;
+ 	cursor: pointer;
+ 	outline: none;
+ 	color: whitesmoke;
+ 	font-family: 'Helvetica Neue', sans-serif;
+ 	font-size: 17px;
+ 	color: peachpuff;
+ }
+
+
 </style>
 
 </head>
 <body>
 
+
+
+
+
 <div class="bg">
 <div class="container">
+
+<nav>
+        <ul class="menu">
+          <li><button onclick="page1()" class="buttonclz">Home</button></li>
+
+          <li>Our Products
+            <ul class="sub-menu">
+              <li><button onclick="page2()" class="buttonclz">See more...</button></li>
+               
+            </ul>
+          </li>
+          
+          
+          <li>Our Services
+            <ul class="sub-menu">
+              <li><button onclick="page3()" class="buttonclz">See more...</button></li>
+              
+            </ul>
+          </li>
+          
+          
+          <li>Companies
+            <ul class="sub-menu">
+              <li><button onclick="page4()" class="buttonclz">See more...</button></li>
+            </ul>
+          </li>
+          
+          
+          <li>Organization
+            <ul class="sub-menu">
+              <li><button onclick="page5()" class="buttonclz">See more...</button></li>  
+            </ul>
+          </li>
+
+          <li>Resent Event
+            <ul class="sub-menu">
+              <li><button onclick="page6()" class="buttonclz">See more...</button></li> 
+            </ul>
+          </li>
+
+          <li>donations
+            <ul class="sub-menu">
+              <li><button onclick="page7()" class="buttonclz">Fill The Form</button></li>
+            </ul>
+          </li>
+        </ul>
+      
+     
+      </nav>
+
   <img src="6.jpg" alt="plastic recycle" style="width:100%;">
   <div class="text-block">
     <h4>Plastic Recycle</h4>
