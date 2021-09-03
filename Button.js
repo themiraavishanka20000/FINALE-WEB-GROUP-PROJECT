@@ -1,24 +1,24 @@
  function page1(){
-      location.replace("new.html");
+      location.replace("test.html");
      } 
 function page2(){
-      location.replace("new.html");
+      location.replace("test.html");
      } 
 function page3(){
-      location.replace("new.html");
+      location.replace("test.html");
      } 
 function page4(){
-      location.replace("new.html");
+      location.replace("test.html");
      } 
 function page5(){
-      location.replace("new.html");
+      location.replace("test.html");
      } 
 function page6(){
-      location.replace("new.html");
+      location.replace("test.html");
      } 
 function page7(){
-      location.replace("new.html");
-     } 
-function back(){
-          location.replace("products.html");
+      location.replace("test.html");
      }
+function back(){
+      location.replace("products.html");
+      }
