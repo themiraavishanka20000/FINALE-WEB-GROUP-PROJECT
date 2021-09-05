@@ -1,3 +1,5 @@
+
+
 body{
 	background-image:url('BG.jpg');
 }
@@ -71,8 +73,9 @@ section{
 	height: auto;
 	width: auto;
 	position:relative ;
-	bottom: 280px;
-	font-size: 125px;
+	bottom: 300px;
+	font-size: 10vw;
+
 
 }
 .ppr{
@@ -83,7 +86,7 @@ section{
 	width: auto;
 	position:relative ;
 	bottom: 300px;
-	font-size: 125px;
+	font-size: 10vw;
 }
 .clay{
 	background-color:none;
@@ -93,7 +96,7 @@ section{
 	width: auto;
 	position:relative ;
 	bottom: 300px;
-	font-size: 125px;
+	font-size: 10vw;
 }
 .boxes{
 	background-color:none;
@@ -103,7 +106,7 @@ section{
 	width: auto;
 	position:relative ;
 	bottom: 300px;
-	font-size: 125px;
+	font-size: 10vw;
 }
 .org{
 	background-color:none;
@@ -113,7 +116,7 @@ section{
 	width: auto;
 	position:relative ;
 	bottom: 300px;
-	font-size: 125px;
+	font-size: 10vw;
 }
  
 .p1{ 
@@ -123,10 +126,10 @@ section{
 	color: whitesmoke;
 	border: 1px;
 	top: 510px;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	padding-left: 450px; 	 
+	padding-top: 5%;
+	padding-left: 450px;
 	opacity: 0.5px;
+	font-size: 1.7vw;
 }
 img.img17{
 	height: 100px;
@@ -176,10 +179,9 @@ img.img22{
 	position: absolute;
 	color: whitesmoke;
 	border: 1px;
-	top: 1170px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	top: 1250px;
 	padding-left: 450px; 
+	font-size: 1.7vw;
 }
 img.img7{
 	height: 230px;
@@ -209,10 +211,10 @@ img.img9{
 	position: absolute;
 	color: whitesmoke;
 	border: 1px;
-	top: 1850px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	top: 1920px;
 	padding-left: 450px; 
+	font-size: 1.7vw;
+
 }
 img.img10{
 	height: 150px;
@@ -267,16 +269,15 @@ img.img16{
 	position: absolute;
 	color: whitesmoke;
 	border: 1px;
-	top: 2500px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	top: 2630px;
 	padding-left: 450px; 
+	font-size: 1.7vw;
 }
 img.img14{
 	height: 260px;
 	width: 220px;
 	position: absolute;
-	top: 2500px;
+	top: 2550px;
 	right: 1020px;
  
 }
@@ -285,10 +286,9 @@ img.img14{
 	position: absolute;
 	color: whitesmoke;
 	border: 1px;
-	top: 3150px;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	padding-left: 450px; 
+	top: 3300px;
+	padding-left: 450px;
+	font-size: 1.7vw; 
 }
 img.img1{
 	height: 100px;
