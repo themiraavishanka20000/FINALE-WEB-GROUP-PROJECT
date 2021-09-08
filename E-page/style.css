@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body
+{
+	margin:0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+}
+section
+{
+	width:100%;
+	height:100vh;
+	background: url(bc.jpg);
+	background-size: cover;
+
+}
+section .leftbox
+{
+	width: 50%;
+	height: 100%;
+	float: left;
+	padding: 50px;
+	box-sizing: border-box;
+}
+section .leftbox .content
+{
+	color: #fff;
+	background: rgba(0,0,0,.5);
+	padding: 40px;
+	transition: .5s;
+}
+section .leftbox .content:hover
+{
+	background: #e91e63;
+}
+section .leftbox .content h1
+{
+	margin: 0;
+	padding: 0;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+section .leftbox .content p
+{
+	margin: 10px 0 0;
+	padding: 0;
+}
+section .events
+{
+	position: relative;
+	width: 50%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	float: right;
+	box-sizing: border-box;
+}
+section .events ul
+{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0;
+	padding: 40px;
+	box-sizing: border-box;
+}
+section .events ul li
+{
+	list-style: none;
+	background: #fff;
+	box- sizing: brother-box;
+	height: 190px;
+	margin: 15px 0;
+}
+section .events ul li .name
+{
+	position: relative;
+	padding: 46px;
+	background: #262626;
+	box-sizing: border-box;
+	width: 30%;
+	height:100%;
+	float: left;
+	text-align: center;
+	transition: 5s;
+}
+section .events ul li:hover .name
+{
+	background: #e91e63;
+}
+section .events ul li .name
+{
+	color: #fff;
+}
+section .events ul li .details
+{
+	padding: 20px;
+	background: #fff;
+	box-sizing: border-box;
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+section .events ul li .details h3
+{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-size: 22px;
+}
+section .events ul li .details p
+{
+	position: relative;
+	margin: 10px 0 0;
+	padding: 0;
+	font-size: 16px;
+} 
+section .events ul li .details a
+{
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px 7px;
+	border: 2px solid #262626;
+	margin-top: 3px;
+	font-size: 12px;
+	transition: 2s;
+
+}
+section .events ul li .details a:hover
+{
+	background: #e91e63;
+	color: #fff;
+	border-color: #e91e63;
+}
+@media (max-width: 991px)
+{
+	section
+	{       
+    	height: 100%;
+    	background-position: center;
+    }
+    section .leftbox
+    {
+    	width: 100%;
+    	height: auto;
+    	float: none;
+    	padding: 20px;
+    }
+    section .events
+    {
+    	width: 100%;
+    	height: auto;
+    	background: transparent;
+    	float: none;
+    }
+    section .leftbox .content
+    {
+    	padding: 20px;
+    }
+    section .leftbox .content h1
+    {
+    	font-size: 30px;
+    }
+    section .events ul
+    {
+    	position: relative;
+    	transform: translateY(0px);
+    	padding: 0 20px 20px;
+    }
+    section .events ul li
+    {
+    	height: auto;
+    }
+    section .events ul li .name
+    {
+    	width: 80px;
+    	height: 80px;
+    	padding: 0;
+    }
+    section .events ul li .name h2
+    {
+    	font-size: 30px
+    	line-height: 24px;
+    }
+    section .events ul li .details
+    {
+    	width: 100%;	
+    	float: none;
+    	padding-left: 100px;
+    	background: transparent;
+    }
+    section .events ul li .details
+    {
+    	padding: 5px 7px;
+    }     
+}
+.buttonclz{
+ 	background-color: transparent;
+ 	border: none;
+ 	cursor: pointer;
+ 	outline: none;
+ 	color: whitesmoke;
+ 	font-family: 'Helvetica Neue', sans-serif;
+ 	font-size: 17px;
+ 	color: peachpuff;
+ }
