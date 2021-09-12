@@ -18,6 +18,6 @@
       location.replace("Eventpage.html");
      } 
      function page7(){
-      location.replace("new.html");
+      location.replace("donationform.html");
      } 
   
